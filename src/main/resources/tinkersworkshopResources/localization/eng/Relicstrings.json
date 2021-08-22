@@ -1,0 +1,19 @@
+{
+  "${ModID}:SelectionToken": {
+    "NAME": "Bug",
+    "FLAVOR": "Congratulations, you've found a secret bug.",
+    "DESCRIPTIONS": [
+      "https://twitter.com/GIF3/status/1408029812644401152"
+    ]
+  },
+  "${ModID}:aug_happyflower": {
+    "NAME": "Augmented Happy Flower",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Every #b3 turns, gain [E] [E] ."]
+  },
+  "${ModID}:blackbirdwings": {
+    "NAME": "Blackbird's Wings",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Whenever you draw or discard a card, gain #b1 #y${ModID}:Evasion"]
+  }
+}

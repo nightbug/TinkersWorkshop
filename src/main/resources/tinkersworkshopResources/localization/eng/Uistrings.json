@@ -1,0 +1,24 @@
+{
+  "tinkersworkshop:BustKeyButton": {
+    "TEXT": [
+      "Augment Relic",
+      "Spend %d gold: Augment a relic.",
+      "Requires %d gold."
+    ]
+  },
+  "tinkersworkshop:WheelSpinButton": {
+    "TEXT": [
+      "Break Ruby",
+      "Break Sapphire",
+      "Break Emerald",
+      "(Free Action) Spend 100 Souls: Destroy key to ",
+      "gain 1 Strength.",
+      "raise Max HP by 10.",
+      "gain 1 Dexterity.",
+      "Key shattered!",
+      "Requires ",
+      " Souls.",
+      "(Free Action) Destroy key to "
+    ]
+  }
+}

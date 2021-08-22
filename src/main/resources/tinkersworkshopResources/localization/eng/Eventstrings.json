@@ -1,0 +1,16 @@
+{
+  "tinkersworkshop:FiresOfInvention": {
+    "NAME": "The Fires Of Invention",
+    "DESCRIPTIONS": [
+      "In the middle of the Genbu Ravine, you notice a short girl sitting on a rug, fiddling away with tools. NL She seems to be busy, but still manages to talk to you while working. NL \"By the way, it's dangerous to go any further, so how about you prepare before you leave?\"",
+      "Nitori seems suprised. NL \"You wanted to fight me?\" NL \"I'd like to try some new weapons I made, so okay!\"",
+      "You leave, allowing her to continue working."
+    ],
+    "OPTIONS": [
+      "#gAugment #ga #grelic [REMOVE_SPACE].",
+      "[Inspect Shop]",
+      "[Leave]",
+      "[Fight]"
+    ]
+  }
+}

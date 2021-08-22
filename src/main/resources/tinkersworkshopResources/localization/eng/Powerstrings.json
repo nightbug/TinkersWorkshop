@@ -1,0 +1,98 @@
+{
+  "${ModID}:WidespreadPropagandaPower": {
+    "NAME": "Widespread Propaganda",
+    "DESCRIPTIONS": [
+      "Whenever a #yPhotograph would deal damage to a single target, it deals damage to ALL enemies instead."
+    ]
+  },
+  "${ModID}:DiscardNextTurnPower": {
+    "NAME": "Restricted",
+    "DESCRIPTIONS": [
+      "Discard #b%1$s card next turn.",
+      "Discard #b%1$s cards next turn."
+    ]
+  },
+  "${ModID}:ShootTheBulletPower": {
+    "NAME": "Shoot The Bullet",
+    "DESCRIPTIONS": [
+      "Gain a Photograph at the start of next turn.",
+      "Gain a Photograph at the start of next turn and double its effects."
+    ]
+  },
+  "${ModID}:QuickReportingPower": {
+    "NAME": "Quick Reporting",
+    "DESCRIPTIONS": [
+      "#ySnapshot a random enemy at the start of your turn.",
+      "#ySnapshot #b%1$s random enemies at the start of your turn."
+    ]
+  },
+  "${ModID}:FreezeFramePower": {
+    "NAME": "Frozen",
+    "DESCRIPTIONS": [
+      "Target enemy repeats the current action next turn.",
+      "Target enemy repeats the current action for #b%1$s turns."
+    ]
+  },
+  "${ModID}:TelescopingPower": {
+    "NAME": "Telescope",
+    "DESCRIPTIONS": ["You may always see the top #b4 cards of your draw pile."]
+  },
+  "${ModID}:EvasionPower": {
+    "NAME": "Evasion",
+    "DESCRIPTIONS": ["When #b25 evasion is gained, become #yEvasive, and dodge all damage this turn."]
+  },
+  "${ModID}:EvasivePower": {
+    "NAME": "Evasive",
+    "DESCRIPTIONS": [
+      "Dodge all damage this turn.",
+      "Dodge all damage for the next #b%1$s turns."
+    ]
+  },
+  "${ModID}:TailwindPower": {
+    "NAME": "Tailwind",
+    "DESCRIPTIONS": ["Gain #b%1$s #yEvasion at the end of your turn."]
+  },
+  "${ModID}:DeadlineDayPower": {
+    "NAME": "Deadline Day",
+    "DESCRIPTIONS": [
+      "Draw #b%1$s card next turn.",
+      "Draw #b%1$s cards next turn."
+    ]
+  },
+  "${ModID}:EvasiveFormPower": {
+    "NAME": "Evasive Form",
+    "DESCRIPTIONS": [
+      "When you draw a card, gain #b%1$s #yEvasion."
+    ]
+  },
+  "${ModID}:TingshaPower": {
+    "NAME": "Opening Wind's Advent",
+    "DESCRIPTIONS": ["Gain the relic #yTingsha until the end of combat."]
+  },
+  "${ModID}:BandagesPower": {
+    "NAME": "Opening Wind's Advent",
+    "DESCRIPTIONS": ["Gain the relic #yTough #yBandages until the end of combat."]
+  },
+  "${ModID}:OverclockedCameraPower": {
+    "NAME": "Overclocked Camera",
+    "DESCRIPTIONS": [
+      "Photographs deal double damage for #b%1$s turn.",
+      "Photographs deal double damage for #b%1$s turns."
+    ]
+  },
+  "${ModID}:GatherEvidencePower": {
+    "NAME": "Gather Evidence",
+    "DESCRIPTIONS": [
+      "Whenever you take damage, #ySnapshot the enemy #b%1$s time.",
+      "Whenever you take damage, #ySnapshot the enemy #b%1$s times."
+    ]
+  },
+  "${ModID}:PolaroidPower": {
+    "NAME": "The Polaroid",
+    "DESCRIPTIONS": ["Whenever you are attacked and aren't #yEvasive, gain #b%1$s #yEvasion."]
+  },
+  "${ModID}:NegativePower": {
+    "NAME": "Opening Wind's Advent",
+    "DESCRIPTIONS": ["Whenever you take damage, deal #b%1$s damage to ALL enemies."]
+  }
+}

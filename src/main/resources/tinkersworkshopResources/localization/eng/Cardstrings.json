@@ -1,0 +1,411 @@
+{
+
+  "${ModID}:Photograph": {
+    "NAME": "Photograph",
+    "DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "Deal !D! damage. NL ",
+      "Deal !D! damage !M! times. NL ",
+      "Deal !D! damage to ALL enemies. NL ",
+      "Deal !D! damage to ALL enemies !M! times. NL ",
+      "Gain !B! Block. NL ",
+      "Gain !B! Block !${ModID}:M! times. NL ",
+      "Draw !M! card. NL ",
+      "Draw !M! cards. NL "
+    ]
+  },
+
+  "${ModID}:foresightAttack": {
+    "NAME": "Foresight",
+    "DESCRIPTION": "Guess that the card drawn is an Attack."
+  },
+  "${ModID}:foresightSkill": {
+    "NAME": "Foresight",
+    "DESCRIPTION": "Guess that the card drawn is an Skill."
+  },
+  "${ModID}:foresightPower": {
+    "NAME": "Foresight",
+    "DESCRIPTION": "Guess that the card drawn is an Power."
+  },
+
+  "${ModID}:Distraught": {
+    "NAME": "Distraught",
+    "DESCRIPTION": "Target enemy gains !M! Weak."
+  },
+  "${ModID}:Enrage": {
+    "NAME": "Enrage",
+    "DESCRIPTION": "Target enemy gains !M! *Enrage."
+  },
+  "${ModID}:peerlessWindOption": {
+    "NAME": "Peerless Wind",
+    "DESCRIPTION": "Draw !M! cards next turn.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards."
+  },
+  "${ModID}:FlatteringReport": {
+    "NAME": "Flattering Report",
+    "DESCRIPTION": "ALL enemies lose !M! Strength this turn."
+  },
+  "${ModID}:ControversialReport": {
+    "NAME": "Controversial Report",
+    "DESCRIPTION": "ALL enemies gain !M! Strength."
+  },
+  "${ModID}:massDeletionOption": {
+    "NAME": "Mass Deletion",
+    "DESCRIPTION": "Deal !D! damage to a random enemy.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:tingshaOption": {
+    "NAME": "Opening Wind's Advent",
+    "DESCRIPTION": "Whenever you discard a card during your turn, deal !M! damage to a random enemy."
+  },
+  "${ModID}:bandagesOption": {
+    "NAME": "Opening Wind's Advent",
+    "DESCRIPTION": "Whenever you discard a card during your turn, gain !M! Block."
+  },
+  "${ModID}:thePolaroid": {
+    "NAME": "The Polaroid",
+    "DESCRIPTION": "Whenever you are attacked and aren't ${ModID}:Evasive, gain !M! ${ModID}:Evasion.",
+    "UPGRADE_DESCRIPTION": "Whenever you are attacked and aren't ${ModID}:Evasive, gain !M! ${ModID}:Evasion. NL Gain [E] ."
+  },
+  "${ModID}:theNegative": {
+    "NAME": "The Negative",
+    "DESCRIPTION": "Whenever you take damage, deal !M! damage to ALL enemies. NL Gain [E] ."
+  },
+  "${ModID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${ModID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:SnapshotStrike": {
+    "NAME": "Snapshot Strike",
+    "DESCRIPTION": "Deal !D! damage. NL ${ModID}:Snapshot"
+  },
+  "${ModID}:EmptyThreat": {
+    "NAME": "EmptyThreat",
+    "DESCRIPTION": "Force the enemy to defend if possible. NL If the enemy is already defending, deal !D! damage."
+  },
+  "${ModID}:PlayfulTaunt": {
+    "NAME": "Playful Taunt",
+    "DESCRIPTION": "Gain !B! Block. NL Force the enemy to attack if possible."
+  },
+  "${ModID}:PressRelease": {
+    "NAME": "Press Release",
+    "DESCRIPTION": "Gain !B! Block. NL Copy a *Photograph in your hand."
+  },
+  "${ModID}:WidespreadPropaganda": {
+    "NAME": "Widespread Propaganda",
+    "DESCRIPTION": "Whenever a *Photograph would deal damage to a single target, deal that damage to ALL enemies instead."
+  },
+  "${ModID}:DoctoredImage": {
+    "NAME": "Doctored Image",
+    "DESCRIPTION": "Gain !B! Block. NL Upgrade !M! *Photograph in your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Upgrade !M! *Photographs in your hand."
+  },
+  "${ModID}:PhotographicDisposal": {
+    "NAME": "Photographic Disposal",
+    "DESCRIPTION": "Discard your hand. Draw !M! cards. NL If you would discard a *Photograph, Exhaust it instead, and gain !${ModID}:M! Strength."
+  },
+  "${ModID}:Foresight": {
+    "NAME": "Foresight",
+    "DESCRIPTION": "Choose a type of card. NL Draw !${ModID}:M! card. NL If that card was that type, gain !B! Block. NL Otherwise, gain !M! Block."
+  },
+  "${ModID}:Preparation": {
+    "NAME": "Preparation",
+    "DESCRIPTION": "Draw !M! cards. NL Discard !${ModID}:M! cards.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Discard up to !${ModID}:M! cards."
+  },
+  "${ModID}:WhispersOfTheWind": {
+    "NAME": "Whispers Of The Wind",
+    "DESCRIPTION": "Put 1 card from your draw pile into your hand. NL Discard a card at random.",
+    "UPGRADE_DESCRIPTION": "Put 1 card from your draw pile into your hand. NL Discard a card."
+  },
+  "${ModID}:Opportunity": {
+    "NAME": "Opportunity",
+    "DESCRIPTION": "Draw !${ModID}:M! card. If target intends to not attack this turn, apply !M! Vulnerable."
+  },
+  "${ModID}:LoadedStatement": {
+    "NAME": "Loaded Statement",
+    "DESCRIPTION": "${ModID}:Adaptive: NL *Distraught. NL *Enrage.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Adaptive: NL *Distraught+ NL *Enrage+."
+  },
+  "${ModID}:Photocopier": {
+    "NAME": "Retrace",
+    "DESCRIPTION": "Select a common card in your deck. Add a copy of it to your deck. NL Fleeting."
+  },
+  "${ModID}:Imitation": {
+    "NAME": "Imitation",
+    "DESCRIPTION": "${ModID}:Snapshot",
+    "UPGRADE_DESCRIPTION": "${ModID}:Snapshot+"
+  },
+  "${ModID}:Photoshoot": {
+    "NAME": "Photoshoot",
+    "DESCRIPTION": "Gain !B! Block. NL ${ModID}:Snapshot",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL ${ModID}:Snapshot+"
+  },
+  "${ModID}:CandidShot": {
+    "NAME": "Candid Shot",
+    "DESCRIPTION": "Deal !D! damage. NL ${ModID}:Snapshot",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL ${ModID}:Snapshot+"
+  },
+  "${ModID}:GaleBullet": {
+    "NAME": "Gale Bullet",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL When discarded, deal !D! damage to ALL enemies."
+  },
+  "${ModID}:Persuade": {
+    "NAME": "Persuade",
+    "DESCRIPTION": "Deal !D! damage. NL Force target enemy not to attack if possible."
+  },
+  "${ModID}:GustFan": {
+    "NAME": "Gust Fan",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL If target enemy intends to attack, draw !M! card."
+  },
+  "${ModID}:ReporterInstinct": {
+    "NAME": "Reporter's Instinct",
+    "DESCRIPTION": "If target intends to attack, gain !B! Block. NL Otherwise, deal !D! damage."
+  },
+  "${ModID}:AirCutter": {
+    "NAME": "Air Cutter",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL Discard !${ModID}:M! card."
+  },
+  "${ModID}:SuddenOutburst": {
+    "NAME": "Sudden Outburst",
+    "DESCRIPTION": "Deal !D! damage and ${ModID}:Snapshot a random enemy.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and ${ModID}:Snapshot+ a random enemy."
+  },
+  "${ModID}:PeerlessWind": {
+    "NAME": "Peerless Wind",
+    "DESCRIPTION": "Deal !D! damage. NL ${ModID}:Adaptive: NL Draw !M! cards. NL Draw !M! cards next turn."
+  },
+  "${ModID}:HurricaneOfFreedom": {
+    "NAME": "Hurricane Of Freedom",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Discard !M! card at random.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. Discard !M! card."
+  },
+  "${ModID}:Galeforce": {
+    "NAME": "Galeforce",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal: NL Gain [E] . NL Draw !M! card."
+  },
+  "${ModID}:BreezeOfReminiscence": {
+    "NAME": "Breeze Of Reminiscence",
+    "DESCRIPTION": "Deal !D! damage. NL Return a card from your discard pile into your hand."
+  },
+  "${ModID}:GaleBlade": {
+    "NAME": "Gale Blade",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${ModID}:FranticSearch": {
+    "NAME": "Frantic Search",
+    "DESCRIPTION": "Deal !D! damage. NL Draw cards until your hand is full. NL Discard !M! cards at random.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Draw cards until your hand is full. NL Discard !M! cards."
+  },
+  "${ModID}:CoerciveReport": {
+    "NAME": "Coercive Report",
+    "DESCRIPTION": "${ModID}:Adaptive: NL *Flattering *Report NL *Controversial *Report",
+    "UPGRADE_DESCRIPTION": "${ModID}:Adaptive: NL *Flattering *Report+ NL *Controversial *Report+"
+  },
+  "${ModID}:GroupPhoto": {
+    "NAME": "GroupPhoto",
+    "DESCRIPTION": "Gain !B! Block. NL ${ModID}:Snapshot ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL ${ModID}:Snapshot+ ALL enemies."
+  },
+  "${ModID}:MassDeletion": {
+    "NAME": "Mass Deletion",
+    "DESCRIPTION": "Discard your Draw Pile. NL For each card discarded, NL ${ModID}:Adaptive: NL Deal !D! damage to a random enemy. NL Gain !B! Block."
+  },
+  "${ModID}:WindsOfChange": {
+    "NAME": "Winds Of Change",
+    "DESCRIPTION": "Shuffle ALL your cards into your draw pile. NL Draw that many cards.",
+    "UPGRADE_DESCRIPTION": "Shuffle ALL your cards into your draw pile. NL Draw that many cards plus two."
+  },
+  "${ModID}:DashingDomination": {
+    "NAME": "Dashing Domination",
+    "DESCRIPTION": "Unplayable. NL When drawn, draw !M! card. NL When discarded, draw !${ModID}:M! cards.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, draw !M! card and gain [E] . NL When discarded, draw !${ModID}:M! cards."
+  },
+  "${ModID}:RapidFirePhotography": {
+    "NAME": "Rapid-Fire Photography",
+    "DESCRIPTION": "${ModID}:Snapshot X.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Snapshot+ X+1."
+  },
+  "${ModID}:ShootTheBullet": {
+    "NAME": "Shoot The Bullet",
+    "DESCRIPTION": "${ModID}:Snapshot NL Gain this *Snapshot at the start of next turn. NL If you take no damage this turn, double its effects.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Snapshot+ NL Gain this *Snapshot at the start of next turn. NL If you take no damage this turn, double its effects."
+  },
+  "${ModID}:InstantShotJournalist": {
+    "NAME": "Instant Shot Journalist",
+    "DESCRIPTION": "Discard cards from your draw pile until you hit a card with ${ModID}:Snapshot. NL Play that card."
+  },
+  "${ModID}:SkywardSonnet": {
+    "NAME": "Skyward Sonnet",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! cards. NL Discard !${ModID}:M! card."
+  },
+  "${ModID}:CherishingBreeze": {
+    "NAME": "Cherishing Breeze",
+    "DESCRIPTION": "Gain !B! Block. NL Discard any number of cards. NL Gain [E] for each card discarded."
+  },
+  "${ModID}:QuickReporting": {
+    "NAME": "Quick Reporting",
+    "DESCRIPTION": "At the start of your turn, ${ModID}:Snapshot a random enemy."
+  },
+  "${ModID}:FreezeFrame": {
+    "NAME": "Freeze Frame",
+    "DESCRIPTION": "Deal !D! damage. NL Target enemy repeats the same move next turn."
+  },
+  "${ModID}:Telescoping": {
+    "NAME": "Telescoping",
+    "DESCRIPTION": "You may always see the top !M! cards of your draw pile."
+  },
+  "${ModID}:ForseenReaction": {
+    "NAME": "Forseen Reaction",
+    "DESCRIPTION": "Gain Block equal to target enemy's intent. NL ",
+    "UPGRADE_DESCRIPTION": "Gain Block equal to ALL incoming attack damage. NL ",
+    "EXTENDED_DESCRIPTION": [
+      "Gain !M! Block."
+    ]
+  },
+  "${ModID}:SplittingGale": {
+    "NAME": "Splitting Gale",
+    "DESCRIPTION": "Deal !D! damage twice. NL You may discard !${ModID}:M! card. NL If you don't, reduce this card's damage by !M! this combat."
+  },
+  "${ModID}:AirSlash": {
+    "NAME": "Air Slash",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! card. NL If you discarded a card this turn, gain [E] [E] . NL If you didn't, gain [E] ."
+  },
+  "${ModID}:AdverseWind": {
+    "NAME": "Adverse Wind",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! card. NL If you discarded a card this turn, gain [E] [E] . NL If you didn't, gain [E] ."
+  },
+  "${ModID}:Tailwind": {
+    "NAME": "Tailwind",
+    "DESCRIPTION": "Gain !M! ${ModID}:Evasion at the end of each turn."
+  },
+  "${ModID}:EvasiveManeuver": {
+    "NAME": "Evasive Maneuver",
+    "DESCRIPTION": "Deal !D! damage. NL If ${ModID}:Evasive: NL Gain [E] NL Draw !M! cards."
+  },
+  "${ModID}:HitAndRun": {
+    "NAME": "Hit And Run",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! ${ModID}:Evasion."
+  },
+  "${ModID}:DashingGrace": {
+    "NAME": "Dashing Grace",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! ${ModID}:Evasion. NL When discarded, NL Gain !${ModID}:M! ${ModID}:Evasion."
+  },
+  "${ModID}:BlindingSpeed": {
+    "NAME": "Blinding Speed",
+    "DESCRIPTION": "Deal !D! damage. NL When you become ${ModID}:Evasive: NL This costs !M! this turn."
+  },
+  "${ModID}:AutumnalFallWind": {
+    "NAME": "Autumnal Fall Wind",
+    "DESCRIPTION": "When discarded, choose a card in your draw pile. NL Play the chosen card twice and exhaust it. NL Exhaust this card.",
+    "UPGRADE_DESCRIPTION": "When discarded, choose a card in your draw pile. NL Play the chosen card twice and exhaust it. NL Draw !M! cards. NL Exhaust this card."
+  },
+  "${ModID}:OutburstingGust": {
+    "NAME": "Outbursting Gust",
+    "DESCRIPTION": "Deal !D! damage. NL If you discarded a card this turn, gain [E] [E] and draw !M! cards."
+  },
+  "${ModID}:DeadlineDay": {
+    "NAME": "Deadline Day",
+    "DESCRIPTION": "At the start of each turn, draw !${ModID}:M! cards. NL Gain !M! Vulnerable."
+  },
+  "${ModID}:EvasiveForm": {
+    "NAME": "Evasive Form",
+    "DESCRIPTION": "When you draw a card, gain !M! ${ModID}:Evasion."
+  },
+  "${ModID}:IllusoryDominance": {
+    "NAME": "Illusory Dominance",
+    "DESCRIPTION": "Gain !M! ${ModID}:Evasion NL Gain !${ModID}:M! Strength.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ${ModID}:Evasion NL Gain !${ModID}:M! Strength. NL Exhaustive 2"
+  },
+  "${ModID}:FlutteringFeyFan": {
+    "NAME": "Fluttering Fey Fan",
+    "DESCRIPTION": "Costs 1 Less [E] for each card discarded this turn. NL Deal !D! damage !M! times."
+  },
+  "${ModID}:LibraryResearch": {
+    "NAME": "Library Research",
+    "DESCRIPTION": "At the start of your turn, draw !M! card and discard !M! card."
+  },
+  "${ModID}:ExclusiveScoop": {
+    "NAME": "Exclusive Scoop",
+    "DESCRIPTION": "Deal !D! damage for each *Photograph played this turn.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deals !D! damage !M! time)",
+      " NL (Deals !D! damage !M! times)"
+    ]
+  },
+  "${ModID}:GuidingBreeze": {
+    "NAME": "Guiding Breeze",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! card. NL  If you played a *Photograph this turn, NL Draw !M! card."
+  },
+  "${ModID}:SpiralingTempest": {
+    "NAME": "Spiraling Tempest",
+    "DESCRIPTION": "Deal !D! damage. NL When discarded, deal !M! damage to ALL enemies."
+  },
+  "${ModID}:HighlightReel": {
+    "NAME": "Highlight Reel",
+    "DESCRIPTION": "Discard !${ModID}:M! card. NL Choose !M! cards in your draw pile. NL Play all of them."
+  },
+  "${ModID}:IntertwinedWinds": {
+    "NAME": "Intertwined Winds",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle this card into your draw pile. NL When discarded, put !M! card from your draw pile into your hand."
+  },
+  "${ModID}:PhotoAlbum": {
+    "NAME": "Photo Album",
+    "DESCRIPTION": "Deal !D! damage !${ModID}:M! times. NL Deals !M! additional damage for each *Photograph played this turn."
+  },
+  "${ModID}:OpeningWindAdvent": {
+    "NAME": "Opening Wind's Advent",
+    "DESCRIPTION": "${ModID}:Adaptive: NL Whenever you discard a card during your turn, deal !M! damage to a random enemy. NL Whenever you discard a card during your turn, gain !M! Block."
+  },
+  "${ModID}:WindSickleVeiling": {
+    "NAME": "Wind Sickle Veiling",
+    "DESCRIPTION": "Deal !D! damage. NL Deals damage an additional time for each card you discarded this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Deal !D! damage !M! times. NL Deals damage an additional time for each card you discarded this turn."
+    ]
+  },
+  "${ModID}:RapidEnhancement": {
+    "NAME": "Rapid Enhancement",
+    "DESCRIPTION": "Deal !D! damage. NL Upgrade all *Photographs in your hand."
+  },
+  "${ModID}:Plagiarism": {
+    "NAME": "Plagiarism",
+    "DESCRIPTION": "Choose any non-colourless card of cost X or lower. NL Play that card.",
+    "UPGRADE_DESCRIPTION": "Choose any *Upgraded non-colourless card of cost X or lower. NL Play that card."
+  },
+  "${ModID}:ClangingWindchime": {
+    "NAME": "Clanging Windchime",
+    "DESCRIPTION": "Unplayable. NL When this card is discarded: NL Gain [E] . NL Draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When this card is discarded: NL Gain [E] [E] . NL Draw !M! cards."
+  },
+  "${ModID}:MountainProcession": {
+    "NAME": "Mountain's Procession",
+    "DESCRIPTION": "Costs 1 Less [E] for each card discarded this turn. NL Gain !B! Block. NL Apply !M! Weak and !M! Vulnerable to ALL enemies."
+  },
+  "${ModID}:BunbunmaruNewspaper": {
+    "NAME": "Bunbunmaru Newspaper",
+    "DESCRIPTION": "Select !M! cards in your hand consisting of !${ModID}:M! cards and a *Photograph. NL  Attach those cards to this card, and change this card's effect.",
+    "EXTENDED_DESCRIPTION": ["Activate the effects of %1$s, %2$s, %3$s."]
+  },
+  "${ModID}:OverclockedCamera": {
+    "NAME": "Overclocked Camera",
+    "DESCRIPTION": "Gain [E] [E] . NL *Photographs deal double damage this turn. NL Lose [E] [E] . next turn."
+  },
+  "${ModID}:GatherEvidence": {
+    "NAME": "Gather Evidence",
+    "DESCRIPTION": "Whenever you are attacked, ${ModID}:Snapshot the attacker."
+  },
+  "${ModID}:InvertedColours": {
+    "NAME": "Inverted Colours",
+    "DESCRIPTION": "Choose a Photograph in your hand. NL Gain Block equal to its damage. NL Deal damage to a random enemy equal to its Block."
+  },
+  "${ModID}:Duality": {
+    "NAME": "Duality",
+    "DESCRIPTION": "${ModID}:Adaptive: NL *The *Polaroid. NL *The *Negative.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Adaptive: NL *The *Polaroid+. NL *The *Negative+."
+  }
+}
