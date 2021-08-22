@@ -134,5 +134,9 @@ public class TinkersWorkshop implements
             teleportToAnvil = false;
         }
     }
+
+    public void addTinkerableRelic(AbstractTinkerRelic upgrade, AbstractRelic base){
+        relicList.put(upgrade, base);
+    }
 }
 
