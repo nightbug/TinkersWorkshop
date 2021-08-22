@@ -18,6 +18,8 @@ public class aug_happyflower extends AbstractTinkerRelic {
             LandingSound.MAGICAL
     );
     public static final String ID = makeID(relicInfo.relicName);
+    private int TURNS = 2;
+    private int ENERGY = 1;
     public aug_happyflower() {
         super(ID, relicInfo);
         AbstractRelic happyflower = new HappyFlower();
@@ -44,13 +46,13 @@ public class aug_happyflower extends AbstractTinkerRelic {
     @Override
     public void atTurnStart() {
         this.counter++;
-        if (this.counter == 3) {
+        if (this.counter == TURNS) {
             this.counter = 0;
             flash();
             addToBot(new RelicAboveCreatureAction(p(), this));
-            addToBot(new GainEnergyAction(2));
+            addToBot(new GainEnergyAction(ENERGY));
         }
     }
     @Override
-    public String getUpdatedDescription() { return DESCRIPTIONS[0]; }
+    public String getUpdatedDescription() { return String.format(DESCRIPTIONS[0], TURNS); }
 }

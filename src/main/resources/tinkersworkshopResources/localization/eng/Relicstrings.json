@@ -9,7 +9,7 @@
   "${ModID}:aug_happyflower": {
     "NAME": "Augmented Happy Flower",
     "FLAVOR": "",
-    "DESCRIPTIONS": ["Every #b3 turns, gain [E] [E] ."]
+    "DESCRIPTIONS": ["Every #b%d turns, gain [E] ."]
   },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
