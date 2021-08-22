@@ -20,7 +20,7 @@ import static TinkersWorkshop.TinkersWorkshop.makeUIPath;
 
 public abstract class AbstractTinkerRelic extends CustomRelic {
     private static final float FPS_SCALE = (240f / Settings.MAX_FPS);
-    private static final int MAX_PARTICLES = 15;
+    private static final int MAX_PARTICLES = 7;
 
     public ArrayList<AugmentParticle> particles = new ArrayList<>();
     public AbstractTinkerRelic(String ID, RelicInfo relicInfo) {
