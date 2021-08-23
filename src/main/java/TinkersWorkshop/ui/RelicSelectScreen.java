@@ -281,7 +281,7 @@ public class RelicSelectScreen implements ScrollBarListener
                 r.renderLock(sb, BLACK_OUTLINE_COLOR);
             } else {
                 r.render(sb);
-                if(r.hb.hovered){ r.renderTip(sb); }
+                if(r.hb.hovered){ r.renderBossTip(sb); }
                 //r.render(sb, false, BLACK_OUTLINE_COLOR);
             }
             col += 1;
