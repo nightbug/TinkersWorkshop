@@ -10,7 +10,7 @@ import javassist.CtBehavior;
 
 import java.util.ArrayList;
 
-public class AddBustKeyButtonPatches {
+public class AddTheAugmentButton {
 
     @SpirePatch(clz = CampfireUI.class, method = "initializeButtons")
     public static class AddKeys {
