@@ -41,6 +41,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["The first time you are attacked this combat, draw #b%d cards."]
   },
+  "${ModID}:aug_ceramicfish": {
+    "NAME": "Augmented Ceramic Fish",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Whenever you add a card to your deck, gain #b%d #yGold [REMOVE_SPACE]."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",

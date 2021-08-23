@@ -54,8 +54,8 @@ public class aug_centennialpuzzle extends AbstractTinkerRelic {
         if(AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMBAT && !usedThisCombat){
             flash();
             pulse = false;
-            doDraw(DRAW, true);
-            att(new RelicAboveCreatureAction(p(), this));
+            atb(new RelicAboveCreatureAction(p(), this));
+            doDraw(DRAW);
             usedThisCombat = true;
             grayscale = true;
         }
