@@ -23,6 +23,9 @@ public class aug_happyflower extends AbstractTinkerRelic {
     public aug_happyflower() {
         super(ID, relicInfo);
         AbstractRelic happyflower = new HappyFlower();
+        img = happyflower.img;
+        largeImg = happyflower.largeImg;
+        outlineImg = happyflower.outlineImg;
         flavorText = happyflower.flavorText;
         fixDescription();
     }

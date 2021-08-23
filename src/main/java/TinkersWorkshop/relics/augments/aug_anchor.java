@@ -23,6 +23,9 @@ public class aug_anchor extends AbstractTinkerRelic {
     public aug_anchor() {
         super(ID, relicInfo);
         AbstractRelic anchor = new Anchor();
+        img = anchor.img;
+        largeImg = anchor.largeImg;
+        outlineImg = anchor.outlineImg;
         flavorText = anchor.flavorText;
         fixDescription();
     }

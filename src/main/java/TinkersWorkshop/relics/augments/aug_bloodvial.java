@@ -22,6 +22,9 @@ public class aug_bloodvial extends AbstractTinkerRelic {
     public aug_bloodvial() {
         super(ID, relicInfo);
         AbstractRelic bloodvial = new BloodVial();
+        img = bloodvial.img;
+        largeImg = bloodvial.largeImg;
+        outlineImg = bloodvial.outlineImg;
         flavorText = bloodvial.flavorText;
         fixDescription();
     }

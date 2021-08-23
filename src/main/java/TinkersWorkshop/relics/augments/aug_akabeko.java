@@ -24,6 +24,9 @@ public class aug_akabeko extends AbstractTinkerRelic {
     public aug_akabeko() {
         super(ID, relicInfo);
         AbstractRelic akabeko = new Akabeko();
+        img = akabeko.img;
+        largeImg = akabeko.largeImg;
+        outlineImg = akabeko.outlineImg;
         flavorText = akabeko.flavorText;
         fixDescription();
     }

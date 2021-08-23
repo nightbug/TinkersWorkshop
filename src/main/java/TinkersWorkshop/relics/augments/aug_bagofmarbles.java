@@ -27,6 +27,9 @@ public class aug_bagofmarbles extends AbstractTinkerRelic {
     public aug_bagofmarbles() {
         super(ID, relicInfo);
         AbstractRelic marbles = new BagOfMarbles();
+        img = marbles.img;
+        largeImg = marbles.largeImg;
+        outlineImg = marbles.outlineImg;
         flavorText = marbles.flavorText;
         fixDescription();
     }

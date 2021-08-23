@@ -24,6 +24,9 @@ public class aug_bronzescales extends AbstractTinkerRelic {
     public aug_bronzescales() {
         super(ID, relicInfo);
         AbstractRelic scales = new BronzeScales();
+        img = scales.img;
+        largeImg = scales.largeImg;
+        outlineImg = scales.outlineImg;
         flavorText = scales.flavorText;
         fixDescription();
     }
