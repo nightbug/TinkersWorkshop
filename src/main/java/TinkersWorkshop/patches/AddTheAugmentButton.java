@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class AddTheAugmentButton {
 
     @SpirePatch(clz = CampfireUI.class, method = "initializeButtons")
-    public static class AddKeys {
+    public static class AddButton {
         @SpireInsertPatch(locator = Locator.class)
         public static void patch(CampfireUI __instance, ArrayList<AbstractCampfireOption> ___buttons) {
             ___buttons.add(new AugmentRelicOption());
