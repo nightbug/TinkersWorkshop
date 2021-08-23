@@ -76,6 +76,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Every time you play #b%d Attacks, gain [E] ."]
   },
+  "${ModID}:aug_orichalcum": {
+    "NAME": "Augmented Orichalcum",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["If you end your turn without Block, gain #b%d Block."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",

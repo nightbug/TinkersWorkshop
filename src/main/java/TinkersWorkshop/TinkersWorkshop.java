@@ -137,6 +137,7 @@ public class TinkersWorkshop implements
         relicList.put(new aug_vajra(), new Vajra());
         relicList.put(new aug_pennib(), new PenNib());
         relicList.put(new aug_nunchaku(), new Nunchaku());
+        relicList.put(new aug_orichalcum(), new Orichalcum());
 
     }
 
