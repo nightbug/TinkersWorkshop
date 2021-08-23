@@ -133,6 +133,8 @@ public class TinkersWorkshop implements
         relicList.put(new aug_ceramicfish(), new CeramicFish());
         relicList.put(new aug_mawbank(), new MawBank());
         relicList.put(new aug_mealticket(), new MealTicket());
+        relicList.put(new aug_oddlysmoothstone(), new OddlySmoothStone());
+        relicList.put(new aug_vajra(), new Vajra());
 
     }
 

@@ -56,6 +56,16 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Whenever you enter a shop room, heal #b%d HP."]
   },
+  "${ModID}:aug_oddlysmoothstone": {
+    "NAME": "Augmented Meal Ticket",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Start each combat with #b%d #yDexterity [REMOVE_SPACE]."]
+  },
+  "${ModID}:aug_vajra": {
+    "NAME": "Augmented Vajra",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Start each combat with #b%d #yStrength [REMOVE_SPACE]."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",
