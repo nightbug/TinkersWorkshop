@@ -2,10 +2,7 @@ package TinkersWorkshop;
 
 import TinkersWorkshop.events.FiresOfInvention;
 import TinkersWorkshop.relics.AbstractTinkerRelic;
-import TinkersWorkshop.relics.augments.aug_akabeko;
-import TinkersWorkshop.relics.augments.aug_anchor;
-import TinkersWorkshop.relics.augments.aug_bloodvial;
-import TinkersWorkshop.relics.augments.aug_happyflower;
+import TinkersWorkshop.relics.augments.*;
 import TinkersWorkshop.ui.AugmentRelicOption;
 import basemod.AutoAdd;
 import basemod.BaseMod;
@@ -129,7 +126,7 @@ public class TinkersWorkshop implements
         relicList.put(new aug_akabeko(), new Akabeko());
         relicList.put(new aug_anchor(), new Anchor());
         relicList.put(new aug_bloodvial(), new BloodVial());
-
+        relicList.put(new aug_bagofmarbles(), new BagOfMarbles());
 
     }
 

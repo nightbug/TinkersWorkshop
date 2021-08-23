@@ -19,7 +19,12 @@
   "${ModID}:aug_bloodvial": {
     "NAME": "Augmented Blood Vial",
     "FLAVOR": "",
-    "DESCRIPTIONS": ["At the start each combat, heal #b%d HP."]
+    "DESCRIPTIONS": ["At the start of each combat, heal #b%d HP."]
+  },
+  "${ModID}:aug_bagofmarbles": {
+    "NAME": "Augmented Bag of Marbles",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["At the start of each combat, apply #b%d Vulnerable to ALL enemies."]
   },
   "${ModID}:aug_happyflower": {
     "NAME": "Augmented Happy Flower",
