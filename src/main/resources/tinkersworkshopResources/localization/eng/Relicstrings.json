@@ -36,6 +36,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Start each combat with #b%d #yThorns [REMOVE_SPACE]."]
   },
+  "${ModID}:aug_centennialpuzzle": {
+    "NAME": "Augmented Centennial Puzzle",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["The first time you are attacked this combat, draw #b%d cards."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",

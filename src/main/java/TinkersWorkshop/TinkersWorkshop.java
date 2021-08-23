@@ -128,6 +128,7 @@ public class TinkersWorkshop implements
         relicList.put(new aug_bloodvial(), new BloodVial());
         relicList.put(new aug_bagofmarbles(), new BagOfMarbles());
         relicList.put(new aug_bronzescales(), new BronzeScales());
+        relicList.put(new aug_centennialpuzzle(), new CentennialPuzzle());
 
     }
 
