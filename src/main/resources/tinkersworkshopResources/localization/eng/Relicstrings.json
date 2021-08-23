@@ -66,6 +66,16 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Start each combat with #b%d #yStrength [REMOVE_SPACE]."]
   },
+  "${ModID}:aug_pennib": {
+    "NAME": "Augmented Pen Nib",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Every #b%d [REMOVE_SPACE]th Attack you play deals double damage."]
+  },
+  "${ModID}:aug_nunchaku": {
+    "NAME": "Augmented Nunchaku",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Every time you play #b%d Attacks, gain [E] ."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",
