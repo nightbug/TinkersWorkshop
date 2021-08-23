@@ -2,6 +2,7 @@ package TinkersWorkshop;
 
 import TinkersWorkshop.events.FiresOfInvention;
 import TinkersWorkshop.relics.AbstractTinkerRelic;
+import TinkersWorkshop.relics.augments.aug_akabeko;
 import TinkersWorkshop.relics.augments.aug_happyflower;
 import TinkersWorkshop.ui.AugmentRelicOption;
 import basemod.AutoAdd;
@@ -18,6 +19,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.Akabeko;
 import com.megacrit.cardcrawl.relics.HappyFlower;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
@@ -124,6 +126,7 @@ public class TinkersWorkshop implements
 
         // add relic time.
         relicList.put(new aug_happyflower(), new HappyFlower());
+        relicList.put(new aug_akabeko(), new Akabeko());
 
     }
 

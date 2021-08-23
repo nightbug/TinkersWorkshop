@@ -6,6 +6,11 @@
       "https://twitter.com/GIF3/status/1408029812644401152"
     ]
   },
+  "${ModID}:aug_akabeko": {
+    "NAME": "Augmented Akabeko",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Your first Attack each combat deals #b%d additional damage."]
+  },
   "${ModID}:aug_happyflower": {
     "NAME": "Augmented Happy Flower",
     "FLAVOR": "",
