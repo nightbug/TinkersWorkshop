@@ -24,12 +24,17 @@
   "${ModID}:aug_bagofmarbles": {
     "NAME": "Augmented Bag of Marbles",
     "FLAVOR": "",
-    "DESCRIPTIONS": ["At the start of each combat, apply #b%d Vulnerable to ALL enemies."]
+    "DESCRIPTIONS": ["At the start of each combat, apply #b%d #yVulnerable to ALL enemies."]
   },
   "${ModID}:aug_happyflower": {
     "NAME": "Augmented Happy Flower",
     "FLAVOR": "",
     "DESCRIPTIONS": ["Every #b%d turns, gain [E] ."]
+  },
+  "${ModID}:aug_bronzescales": {
+    "NAME": "Augmented Bronze Scales",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Start each combat with #b%d #yThorns [REMOVE_SPACE]."]
   },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
