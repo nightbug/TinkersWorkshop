@@ -16,6 +16,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Start each combat with #b%d Block."]
   },
+  "${ModID}:aug_bloodvial": {
+    "NAME": "Augmented Blood Vial",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["At the start each combat, heal #b%d HP."]
+  },
   "${ModID}:aug_happyflower": {
     "NAME": "Augmented Happy Flower",
     "FLAVOR": "",

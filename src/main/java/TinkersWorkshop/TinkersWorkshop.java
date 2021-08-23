@@ -4,6 +4,7 @@ import TinkersWorkshop.events.FiresOfInvention;
 import TinkersWorkshop.relics.AbstractTinkerRelic;
 import TinkersWorkshop.relics.augments.aug_akabeko;
 import TinkersWorkshop.relics.augments.aug_anchor;
+import TinkersWorkshop.relics.augments.aug_bloodvial;
 import TinkersWorkshop.relics.augments.aug_happyflower;
 import TinkersWorkshop.ui.AugmentRelicOption;
 import basemod.AutoAdd;
@@ -19,10 +20,7 @@ import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.localization.*;
-import com.megacrit.cardcrawl.relics.AbstractRelic;
-import com.megacrit.cardcrawl.relics.Akabeko;
-import com.megacrit.cardcrawl.relics.Anchor;
-import com.megacrit.cardcrawl.relics.HappyFlower;
+import com.megacrit.cardcrawl.relics.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import java.nio.charset.StandardCharsets;
@@ -130,6 +128,8 @@ public class TinkersWorkshop implements
         relicList.put(new aug_happyflower(), new HappyFlower());
         relicList.put(new aug_akabeko(), new Akabeko());
         relicList.put(new aug_anchor(), new Anchor());
+        relicList.put(new aug_bloodvial(), new BloodVial());
+
 
     }
 
