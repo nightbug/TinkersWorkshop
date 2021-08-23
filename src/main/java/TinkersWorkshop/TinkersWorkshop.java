@@ -17,6 +17,7 @@ import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.monsters.beyond.Maw;
 import com.megacrit.cardcrawl.relics.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
@@ -130,6 +131,7 @@ public class TinkersWorkshop implements
         relicList.put(new aug_bronzescales(), new BronzeScales());
         relicList.put(new aug_centennialpuzzle(), new CentennialPuzzle());
         relicList.put(new aug_ceramicfish(), new CeramicFish());
+        relicList.put(new aug_mawbank(), new MawBank());
 
     }
 

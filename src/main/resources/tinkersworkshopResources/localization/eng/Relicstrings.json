@@ -46,6 +46,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Whenever you add a card to your deck, gain #b%d #yGold [REMOVE_SPACE]."]
   },
+  "${ModID}:aug_mawbank": {
+    "NAME": "Augmented Maw Bank",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Whenever you climb a floor, gain #b%d #yGold [REMOVE_SPACE]. No longer works when you spend any #yGold at the shop."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",
