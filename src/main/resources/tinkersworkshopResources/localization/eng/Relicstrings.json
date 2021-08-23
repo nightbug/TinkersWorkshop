@@ -51,6 +51,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Whenever you climb a floor, gain #b%d #yGold [REMOVE_SPACE]. No longer works when you spend any #yGold at the shop."]
   },
+  "${ModID}:aug_mealticket": {
+    "NAME": "Augmented Meal Ticket",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Whenever you enter a shop room, heal #b%d HP."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",

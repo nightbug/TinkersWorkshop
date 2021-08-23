@@ -132,6 +132,7 @@ public class TinkersWorkshop implements
         relicList.put(new aug_centennialpuzzle(), new CentennialPuzzle());
         relicList.put(new aug_ceramicfish(), new CeramicFish());
         relicList.put(new aug_mawbank(), new MawBank());
+        relicList.put(new aug_mealticket(), new MealTicket());
 
     }
 
