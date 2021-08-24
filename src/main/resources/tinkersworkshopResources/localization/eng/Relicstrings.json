@@ -81,6 +81,16 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["If you end your turn without Block, gain #b%d Block."]
   },
+  "${ModID}:aug_lantern": {
+    "NAME": "Augmented Lantern",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Start each combat with an additional [E] . NL At the start of your second turn, gain an additional [E] ."]
+  },
+  "${ModID}:aug_toyornithopter": {
+    "NAME": "Augmented Toy Ornithopter",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["Whenever you use a potion, heal #b%d HP."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",
