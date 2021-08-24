@@ -10,6 +10,7 @@ import TinkersWorkshop.util.RelicInfo;
 import basemod.DevConsole;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -104,7 +105,18 @@ public class SelectionToken extends AbstractNonTinkerRelic
                         break;
                 }
                 AbstractDungeon.player.loseGold(ShopScreen.actualPurgeCost);
-                ShopScreen.actualPurgeCost += 25;
+                ShopScreen.purgeCost += 25;
+                ShopScreen.actualPurgeCost = ShopScreen.purgeCost;
+                if (AbstractDungeon.player.hasRelic("Smiling Mask")) {
+                    ShopScreen.actualPurgeCost = 50;
+                    AbstractDungeon.player.getRelic("Smiling Mask").stopPulse();
+                }
+                else if (AbstractDungeon.player.hasRelic("The Courier") && AbstractDungeon.player.hasRelic("Membership Card")) {
+                    ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.8F * 0.5F);
+                } else if (AbstractDungeon.player.hasRelic("The Courier")) {
+                    ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.8F);
+                } else if (AbstractDungeon.player.hasRelic("Membership Card")) { ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.5F); }
+
                 AbstractDungeon.effectsQueue.add(0, new UpgradeShineEffect(Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
                 AbstractDungeon.effectsQueue.add(1, new SpinningRelicEffect(relic));
                 AbstractDungeon.effectsQueue.add(2, new ScreenOnFireEffect());

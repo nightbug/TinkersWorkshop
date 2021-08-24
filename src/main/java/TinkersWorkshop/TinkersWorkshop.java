@@ -18,6 +18,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.relics.*;
+import com.megacrit.cardcrawl.shop.ShopScreen;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import java.nio.charset.StandardCharsets;
@@ -33,7 +34,8 @@ public class TinkersWorkshop implements
         EditKeywordsSubscriber,
         EditCharactersSubscriber,
         PostInitializeSubscriber,
-        PostUpdateSubscriber
+        PostUpdateSubscriber,
+        StartGameSubscriber
 {
 
     private static String modID = "tinkersworkshop";
@@ -149,6 +151,12 @@ public class TinkersWorkshop implements
             AugmentRelicOption.eventWarp();
             teleportToAnvil = false;
         }
+    }
+
+
+    @Override
+    public void receiveStartGame() {
+        ShopScreen.actualPurgeCost = ShopScreen.purgeCost;
     }
 
     public void addTinkerableRelic(AbstractTinkerRelic upgrade, AbstractRelic base){
