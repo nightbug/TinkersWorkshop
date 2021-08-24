@@ -4,12 +4,13 @@ import TinkersWorkshop.relics.AbstractTinkerRelic;
 import TinkersWorkshop.util.RelicInfo;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.relics.HappyFlower;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import static TinkersWorkshop.TinkersWorkshop.makeID;
-import static TinkersWorkshop.util.actionShortcuts.p;
+import static TinkersWorkshop.util.actionShortcuts.*;
 
 public class aug_happyflower extends AbstractTinkerRelic {
     public static final RelicInfo relicInfo = new RelicInfo(
@@ -47,13 +48,22 @@ public class aug_happyflower extends AbstractTinkerRelic {
         return new aug_happyflower();
     }
     @Override
+    public void atBattleStart() {
+        if (counter % TURNS == 0 && counter != 0)  {
+            flash();
+            counter = 0;
+            att(new GainEnergyAction(ENERGY));
+            att(new RelicAboveCreatureAction(p(), this));
+        }
+    }
+    @Override
     public void atTurnStart() {
         this.counter++;
         if (this.counter == TURNS) {
             this.counter = 0;
             flash();
-            addToBot(new RelicAboveCreatureAction(p(), this));
-            addToBot(new GainEnergyAction(ENERGY));
+            atb(new RelicAboveCreatureAction(p(), this));
+            atb(new GainEnergyAction(ENERGY));
         }
     }
     @Override
