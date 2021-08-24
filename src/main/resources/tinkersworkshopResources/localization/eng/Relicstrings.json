@@ -91,6 +91,11 @@
     "FLAVOR": "",
     "DESCRIPTIONS": ["Whenever you use a potion, heal #b%d HP."]
   },
+  "${ModID}:aug_bagofpreparation": {
+    "NAME": "Augmented Bag Of Preparation",
+    "FLAVOR": "",
+    "DESCRIPTIONS": ["At the start of each combat, draw #b%d additional cards. NL At the start of your second turn, draw an additional card."]
+  },
   "${ModID}:blackbirdwings": {
     "NAME": "Blackbird's Wings",
     "FLAVOR": "",

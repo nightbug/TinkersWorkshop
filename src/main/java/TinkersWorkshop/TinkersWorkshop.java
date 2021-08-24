@@ -17,7 +17,6 @@ import com.evacipated.cardcrawl.modthespire.Loader;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.localization.*;
-import com.megacrit.cardcrawl.monsters.beyond.Maw;
 import com.megacrit.cardcrawl.relics.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
@@ -140,6 +139,7 @@ public class TinkersWorkshop implements
         relicList.put(new aug_orichalcum(), new Orichalcum());
         relicList.put(new aug_lantern(), new Lantern());
         relicList.put(new aug_toyornithopter(), new ToyOrnithopter());
+        relicList.put(new aug_bagofpreparation(), new BagOfPreparation());
 
     }
 
