@@ -17,6 +17,9 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.RelicLibrary;
 import com.megacrit.cardcrawl.localization.RelicStrings;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.relics.Courier;
+import com.megacrit.cardcrawl.relics.MembershipCard;
+import com.megacrit.cardcrawl.relics.SmilingMask;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.shop.ShopScreen;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
@@ -107,16 +110,15 @@ public class SelectionToken extends AbstractNonTinkerRelic
                 AbstractDungeon.player.loseGold(ShopScreen.actualPurgeCost);
                 ShopScreen.purgeCost += 25;
                 ShopScreen.actualPurgeCost = ShopScreen.purgeCost;
-                if (AbstractDungeon.player.hasRelic("Smiling Mask")) {
+                if (AbstractDungeon.player.hasRelic(SmilingMask.ID)) {
                     ShopScreen.actualPurgeCost = 50;
-                    AbstractDungeon.player.getRelic("Smiling Mask").stopPulse();
+                    AbstractDungeon.player.getRelic(SmilingMask.ID).stopPulse();
                 }
-                else if (AbstractDungeon.player.hasRelic("The Courier") && AbstractDungeon.player.hasRelic("Membership Card")) {
+                else if (AbstractDungeon.player.hasRelic(Courier.ID) && AbstractDungeon.player.hasRelic(MembershipCard.ID)) {
                     ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.8F * 0.5F);
-                } else if (AbstractDungeon.player.hasRelic("The Courier")) {
+                } else if (AbstractDungeon.player.hasRelic(Courier.ID)) {
                     ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.8F);
-                } else if (AbstractDungeon.player.hasRelic("Membership Card")) { ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.5F); }
-
+                } else if (AbstractDungeon.player.hasRelic(MembershipCard.ID)) { ShopScreen.actualPurgeCost = MathUtils.round(ShopScreen.purgeCost * 0.5F); }
                 AbstractDungeon.effectsQueue.add(0, new UpgradeShineEffect(Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
                 AbstractDungeon.effectsQueue.add(1, new SpinningRelicEffect(relic));
                 AbstractDungeon.effectsQueue.add(2, new ScreenOnFireEffect());
